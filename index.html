@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="chatbox"></div>
+  <input type="text" id="user-input" placeholder="Ask a question..." onkeydown="if(event.keyCode===13){handleInput();}">
+  <button onclick="handleInput()" id="send">Send</button>
+</body>
+</html>

@@ -1,0 +1,27 @@
+#send {
+  border: 2px solid black;
+  bottom: 4.3%;
+  position: absolute;
+  right: 3.6%;
+  width: 42px;
+  height: 36px;
+}
+
+#user-input {
+  border: 2px solid black;
+  left: 13.2px;
+  bottom: 4.3%;
+  position: absolute;
+  height: 30px;
+  width: 280px;
+}
+
+#chatbox {
+  background-color: #ADD8E6;
+  height: 500px;
+  border-radius: 5px;
+  overflow-y: auto;
+  border: 5px solid #9AC9E6;
+  padding: 10px;
+  margin-bottom: 10px;
+}
